@@ -1,6 +1,6 @@
 {
   "env": {
-    "browser": true,
+    "browser": false,
       "es2020": true,
         "jest": true,
           "node": true
@@ -25,10 +25,8 @@
     "ecmaVersion": 11,
       "sourceType": "module"
   },
-  "plugins": ["react", "react-hooks", "@typescript-eslint"],
+  "plugins": ["react", "@typescript-eslint"],
     "rules": {
-    "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
         "react/prop-types": "off",
           "react/react-in-jsx-scope": "off",
             "@typescript-eslint/explicit-module-boundary-types": "off"

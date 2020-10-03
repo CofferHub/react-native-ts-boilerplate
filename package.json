@@ -9,14 +9,7 @@
     "test": "jest",
     "lint": "eslint .",
     "test:watch": "yarn test --watch",
-    "generate": "yarn plop --plopfile generators/plopfile.js",
-    "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "generate": "yarn plop --plopfile generators/plopfile.js"
   },
   "lint-staged": {
     "src/**/*": [
@@ -25,7 +18,6 @@
     ]
   },
   "dependencies": {
-    "@storybook/react-native": "^5.3.23",
     "react": "16.13.1",
     "react-native": "0.63.3",
     "styled-components": "^5.2.0"
@@ -42,6 +34,7 @@
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
     "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
     "eslint": "^7.10.0",
     "husky": "^4.3.0",
     "jest": "^26.4.2",
@@ -49,6 +42,8 @@
     "metro-react-native-babel-preset": "^0.63.0",
     "plop": "^2.7.4",
     "prettier": "^2.1.2",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
     "react-native-typescript-transformer": "^1.2.13",
     "react-test-renderer": "16.13.1",
     "ts-jest": "^26.4.1",
