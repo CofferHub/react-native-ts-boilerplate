@@ -12,18 +12,18 @@ module.exports = function (plop) {
     actions: [
       {
         type: 'add',
-        path: '../src/components/{{ pascalCase name }}/index.js',
-        templateFile: 'templates/index.js.hbs'
+        path: '../src/components/{{ pascalCase name }}/index.ts',
+        templateFile: 'templates/index.tsx.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/{{ pascalCase name }}/styles.js',
-        templateFile: 'templates/styles.js.hbs'
+        path: '../src/components/{{ pascalCase name }}/styles.ts',
+        templateFile: 'templates/styles.ts.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/{{ pascalCase name }}/test.js',
-        templateFile: 'templates/test.js.hbs'
+        path: '../src/components/{{ pascalCase name }}/test.ts',
+        templateFile: 'templates/test.tsx.hbs'
       }
     ]
   });
