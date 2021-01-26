@@ -4,7 +4,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-<img src="https://images.unsplash.com/photo-1594548044919-75fd146b8c60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80" width="500px" alt="Img" />
+<img src="./cover.png" alt="Boilerplate cover wallpaper" width="auto" height="auto" />
 
 <span>Photo by <a href="https://unsplash.com/@victor_g?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Victor Garcia</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
