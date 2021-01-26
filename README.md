@@ -6,8 +6,6 @@
 
 <img src="./cover.png" alt="Boilerplate cover wallpaper" width="auto" height="auto" />
 
-<span>Photo by <a href="https://unsplash.com/@victor_g?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Victor Garcia</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
 The boilerplate was build with the main dependencies for creating a typescript mobile app. 
 We focus on maintain the project styles with eslint and prettier together. Along side with jest for testing react components. 
 We choose Styled Components to build components and Axios for making server side requests. We have PlopJS for generating components files too.
