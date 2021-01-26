@@ -11,7 +11,7 @@ We focus on maintain the project styles with eslint and prettier together. Along
 We choose Styled Components to build components and Axios for making server side requests. We have PlopJS for generating components files too.
 We hope this repository helps you with templating you great projects!
 
-## Instalação das dependências
+## Dependencies
 
 ```sh
 yarn or npm install
