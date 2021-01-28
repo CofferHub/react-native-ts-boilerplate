@@ -7,19 +7,28 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint .",
+    "lint": "eslint src --max-warnings=0",
     "test:watch": "yarn test --watch",
     "generate": "yarn plop --plopfile generators/plopfile.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix",
-      "yarn test --findRelatedTests --bail"
+      "yarn lint --fix"
     ]
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.13.3",
+    "@react-navigation/native": "^5.9.2",
+    "axios": "^0.21.1",
+    "native-base": "^2.15.2",
     "react": "16.13.1",
     "react-native": "0.63.3",
+    "react-native-vector-icons": "^8.0.0",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
@@ -38,6 +47,7 @@
     "eslint": "^7.10.0",
     "husky": "^4.3.0",
     "jest": "^26.4.2",
+    "jest-styled-components": "^7.0.3",
     "lint-staged": "^10.4.0",
     "metro-react-native-babel-preset": "^0.63.0",
     "plop": "^2.7.4",
