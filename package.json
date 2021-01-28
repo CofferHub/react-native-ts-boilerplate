@@ -27,7 +27,7 @@
     "axios": "^0.21.1",
     "native-base": "^2.15.2",
     "react": "16.13.1",
-    "react-native": "0.63.3",
+    "react-native": "0.63.4",
     "react-native-vector-icons": "^8.0.0",
     "styled-components": "^5.2.0"
   },
