@@ -48,7 +48,7 @@
     "husky": "^4.3.0",
     "jest": "^26.4.2",
     "jest-styled-components": "^7.0.3",
-    "lint-staged": "^10.4.0",
+    "lint-staged": "^11.1.0",
     "metro-react-native-babel-preset": "^0.63.0",
     "plop": "^2.7.4",
     "prettier": "^2.1.2",
